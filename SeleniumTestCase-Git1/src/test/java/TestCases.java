@@ -28,7 +28,7 @@ public class TestCases {
 		  driver.findElement(By.cssSelector("#txtUserID")).sendKeys("pegatestuser");
 			driver.findElement(By.cssSelector("#txtPassword")).sendKeys("rules");
 			driver.findElement(By.cssSelector("#sub")).click();
-			Assert.assertEquals("Pega Desgner Studio", driver.getTitle());
+			Assert.assertEquals("Pega Designer Studio", driver.getTitle());
 			System.out.print("After Login the Page Title: " +driver.getTitle()+ "\n");
 	  }
 	  
